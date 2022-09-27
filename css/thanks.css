@@ -1,0 +1,11 @@
+body{
+    font-family: Montserrat;
+    font-weight: 400;
+    padding-top: 20px;
+    background-image: url('../images/background5-01.jpg');
+    background-size: cover;
+}
+.container{
+    margin: auto;
+    color: white;
+}

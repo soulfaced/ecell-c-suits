@@ -1,0 +1,54 @@
+body{
+    font-family: Montserrat;
+    font-weight: 400;
+    padding-top: 20px;
+    background-image: url('background5-01.jpg');
+}
+body h1{
+    font-weight: 800;
+    color: white;
+}
+body h3{
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #f18d11;
+}
+.comDet{
+  padding-bottom: 20px;
+}
+form label{
+    color: white;
+}
+form small{
+    color:#f18d11;
+    opacity: 1;
+}
+.container{
+    background-image: url('background5-01.jpg');
+    background-size: cover;
+}
+input::-webkit-input-placeholder {
+    font-size: 13px;
+    line-height: 3;
+}
+.qn2{
+  display: inline;
+}
+/* .formQn2{
+  width: 70%;
+} */
+.formQn2{
+  width: 700px;
+}
+.ans{
+  margin-left: 30px;
+  border-radius: 10px;
+  height: 100px;
+}
+.heading2{
+  margin-top: 30px;
+}
+.next{
+  margin-bottom: 50px;
+  margin-top: 10px;
+}

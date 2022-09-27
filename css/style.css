@@ -1,0 +1,188 @@
+/*Navbar*/
+.nav-item
+{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.navbar
+{
+    background-color: rgba(0,0,0,0.3);
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#home
+{
+    height: 100vh;
+    background-color: #161616;
+    position: relative;
+}
+/*Background colorful streak*/
+.expo-back-out
+{
+    width: 100%;
+    height: 80vh;
+    background: url(../images/expo-back.png);
+    background-position: -160% -50%;
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+    position: absolute;
+}
+.expo-front-out {
+    width: 90%;
+    height: 90%;
+    background: url(../images/expo-front.png);
+    background-position: 75% 55%;
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    position: absolute;
+    z-index: 0;
+}
+
+#home .btn, #register .btn
+{
+    border-radius: 25px 25px 25px 25px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+#about
+{
+    padding: 7% 5%;
+}
+
+#about h2, #register h2, #contact h2, #perks-and-startups h2
+{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+#register
+{
+    text-align: center;
+}
+#register .form-control
+{
+    display: inline;
+    width: 40%;
+}
+#contact .row
+{
+    margin-top: 1rem;
+}
+
+.manager-name
+{
+    background-color: #bd202696;
+    padding: 0.7rem;
+}
+
+
+#perks-header h3, #startups-header h3
+{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+#perks-header .slider-underline, #startups-header .slider-underline
+{
+    width: 0;
+    height: 4px;
+    background: rgb(100, 100, 100);
+    transition: width 0.5s;
+    margin: auto;
+}
+#perks-and-startups
+{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+#perks-and-startups .row p
+{
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+.unstyled-link
+{
+    text-decoration: none;
+    color: #000;
+}
+.unstyled-link:hover
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.width-full
+{
+    width: 100% !important;
+}
+
+.invisible
+{
+    display: none !important;
+}
+
+/*Footer*/
+footer
+{
+    font-family: 'Segoe UI', sans-serif;
+}
+.follow-ecell
+{
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.8);
+}
+.share-row
+{
+	margin-top: 1rem;
+}
+.share-row a
+{
+	color: rgba(255, 255, 255, 0.8);
+}
+.hosting-partner-image-container
+{
+	text-align: center;
+}
+.hosting-partner-image-container img
+{
+	width: 100px;
+}
+
+
+@media (min-width: 768px)
+{
+  #partners, #conso, #jugaad
+  {
+      background-size: 50% !important;
+      min-height: 300px;
+  }
+}
+@media(max-width: 600px)
+{
+    footer
+    {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    footer .col-md-3
+    {
+        padding-top: 2rem;
+    }
+    .share-row .my-3
+    {
+        margin-top: 0 !important;
+    }
+
+    .expo-front-out
+    {
+        background-size: 100% auto;
+    }
+}
