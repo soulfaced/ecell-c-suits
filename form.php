@@ -79,9 +79,7 @@ else{
                         <input type="number" class="form-control auto-save rounded-pill" id="groupsize" name="groupSize" placeholder="Number of members in the team" required>
                     </div>
                 </div>
-                <!-- <?php
-                    for($i=2; $i<=$mem; $i++):
-                ?> -->
+              
                 <!-- <br>
                     <div class="form-group row">
                         <p style="color: white;"><?php echo "Team member " . $i; ?></p>
@@ -91,7 +89,7 @@ else{
                     </div> -->
 
                 <center>
-                    <a href="/questionaire1.html">
+                    <a href="questionaire1.php">
                         <span class="btn btn-danger rounded-pill align-items-center" >NEXT</span>
                     </a>                
                 </center>

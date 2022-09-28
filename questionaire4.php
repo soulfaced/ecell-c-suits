@@ -1,3 +1,16 @@
+<?php
+session_start();
+
+if(isset($_POST['submit_member']))
+{
+    $mem = $_POST['SIZE'];
+
+}
+else{
+    $mem = 1;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

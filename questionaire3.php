@@ -1,3 +1,16 @@
+<?php
+session_start();
+
+if(isset($_POST['submit_member']))
+{
+    $mem = $_POST['SIZE'];
+
+}
+else{
+    $mem = 1;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,7 +82,7 @@
                 </div>
 
                 <center>
-                    <a href="/questionaire4.html">
+                    <a href="questionaire4.php">
                         <span class="btn btn-danger rounded-pill align-items-center" >NEXT</span>
                     </a>   
                 </center>
