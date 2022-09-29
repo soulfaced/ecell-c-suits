@@ -299,7 +299,8 @@ else{
                 </div>
 
             <input type="button" name="previous" class="previous btn btn-danger" value="Previous" />
-            <input type="submit" name="submit" class="submit btn btn-success text-center" value="Submit" />
+            <!-- <input type="submit" name="submit" class="submit btn btn-success" value="Submit" /> -->
+            <button type="submit" name="submit" class="submit btn btn-success" value="Submit">Submit</button>
         </fieldset>
         </form>
                 </div>
