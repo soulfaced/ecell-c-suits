@@ -434,7 +434,7 @@ $_SESSION['login_use'] = 'ecell';
         <!-- End Features -->
         
           
-        <section class="community container-fluid d-none d-md-block" style="margin-bottom:-3%;background-color:#181818;" id="register">
+        <section class="community container-fluid d-block" style="margin-bottom:-3%;background-color:#181818;" id="register">
           <div class="heading text-center" style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000" styel="color:#f18d11">JOIN THE COMMUNITY</div>
           <div class="row">
             <div class="col-md-4"style="margin-left:10%;margin-top:5%"data-aos="fade-right"data-aos-duration="2000">
