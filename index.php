@@ -441,7 +441,7 @@ $_SESSION['login_use'] = 'ecell';
               <div class="heading text-center" styel="color:#f18d11">❝ LaunchPad ❞</div>
               <div class="para text-center"style="margin:3% 0">
                   Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:chocolate;">IDEATE, CREATE AND NETWORK</span> with other members of this engaging community.
-                  <a href="form.php"> 
+                  <a href="https://chat.whatsapp.com/KA3wsL2BBzhG30cSiHGAgX"> 
                   <button class="btn btn3" styel="color:#f18d11">Join Now</button></a>
             </div>
             </div>
