@@ -4,10 +4,9 @@ session_start();
 // include('mailing.php');
 
 
-// $name = $_GET["name"];
-//$name = $_SESSION['leader_email'];
+// $name = $_POST["name"];
 $name = $_SESSION['name'];
-// $to_email = $_SESSION['email'];
+// $name = $_SESSION['name1'];
 // $sub = "Welcome To C-Suites";
 // $teamname = "";
 // $event = "";
@@ -23,7 +22,6 @@ $name = $_SESSION['name'];
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- external css  -->
@@ -31,17 +29,24 @@ $name = $_SESSION['name'];
     <!-- Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- favicon -->
-    <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
+    <!-- <link rel = "icon" href = "images/icon.png" type = "image/x-icon"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
     </head>
+
   <body>
         <div class="">
         <div class="container d-flex align-items-center justify-content-center min-vh-100">
             <div class="row text-center">
-                <div class="">
-                  <?php echo "<h4>We will contact you soon. <br>Welcome to the community,<b style=color:red> $name!</b></h4>";?><br>
+                <div class="" style="color:white;">
+                  <?php echo "<h1>Your have already registered,<b style=color:red> $name!</b><br> </h1><h4>Contact us for any other queries</h4>";?><br>
                 <button class="btn btn-danger rounded-pill justify-content-center "><a class="badge badge-danger rounded-pill" href="index.php">Return to Home</a></button>
+                  
                 </div>
             </div>
+            <!-- <br> -->
         </div>
         </div>
 

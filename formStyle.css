@@ -37,7 +37,7 @@ input::-webkit-input-placeholder {
 /* .formQn2{
   width: 70%;
 } */
-.formQn2{
+form{
   width: 700px;
 }
 .ans{
@@ -48,7 +48,10 @@ input::-webkit-input-placeholder {
 .heading2{
   margin-top: 30px;
 }
-.next{
+/* .next{
   margin-bottom: 50px;
   margin-top: 10px;
+} */
+#registration_form fieldset:not(:first-of-type) {
+  display: none;
 }

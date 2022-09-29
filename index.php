@@ -99,7 +99,7 @@ $_SESSION['login_use'] = 'ecell';
                      <img src="https://startupconclave.ecellvnit.org/static/img/E-Cell_white.png" alt="Ecell Logo" height="50" style="float:right; z-index:2"/>
                      <p class="g-color--white-opacity" style="position: relative;margin-left:10px;z-index:2; margin-top:22px">presents</p>
                 </div> -->
-                <h1 class="text-uppercase g-font-size-50--xs g-font-size-60--sm g-font-size-80--lg g-color--white" style="font-weight:700; text-shadow: 2px 0 #333; letter-spacing:2px; position: relative;">C-Suites</h1>
+                <h1 class="text-uppercase g-font-size-50--xs g-font-size-60--sm g-font-size-80--lg g-color--white mt-5" style="font-weight:700; text-shadow: 2px 0 #333; letter-spacing:2px; position: relative;">C-Suites</h1>
                 
                     <br>
                     <div class="col-sm-7 col-sm-6 col-lg-7">
@@ -111,15 +111,18 @@ $_SESSION['login_use'] = 'ecell';
                         <p class="g-color--white-opacity g-font-size-20--xs">Grow yourself and nurture your start-up with us!</p>
                     </div>
                 
-                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
-                    <!-- <a class="btn btn-outline-light" id="reg_button" href="#register" title="Register">
+
+                    <a href="form.php"> 
+                      <button class="btn text-white rounded-pill" style="background-color: #f18d11;">Join Now</button></a>
+                <!-- <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
+                    <a class="btn btn-outline-light" id="reg_button" href="#register" title="Register">
                         <span class="text-uppercase">Join Now!</span>
-                    </a> -->
-                </div>
+                    </a>
+                </div> -->
             </div>
         </div>
-              <div id="particleCanvas-Orange" class="e-particles-orange"></div>
-              <div id="particleCanvas-Blue" class="e-particles-blue"></div>
+              <!-- <div id="particleCanvas-Orange" class="e-particles-orange"></div>
+              <div id="particleCanvas-Blue" class="e-particles-blue"></div> -->
           </div>
 
 
@@ -391,15 +394,16 @@ $_SESSION['login_use'] = 'ecell';
         <!-- End Features -->
 
           
-        <section class="community container-fluid d-none d-md-block" style="margin-bottom:-3%;" id="register">
+        <section class="community container-fluid d-md-block" style="margin-bottom:-3%;" id="register">
           <div class="heading text-center" style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">JOIN THE COMMUNITY</div>
           <div class="row">
             <div class="col-md-4"style="margin-left:10%;margin-top:5%"data-aos="fade-right"data-aos-duration="2000">
               <div class="heading text-center">❝ EntreLearners ❞</div>
               <div class="para text-center"style="margin:3% 0">
                   Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-10th standard students
-                  <a href="form.php"> 
-                  <button class="btn btn3">Join Now</button></a>
+                  <br>
+                  <center><a href="form.php"> 
+                  <button class="btn btn3" style="background-color: #f18d11;">Join Now</button></a></center>
             </div>
             </div>
             <div class="col-md-6">
@@ -407,9 +411,6 @@ $_SESSION['login_use'] = 'ecell';
             </div>
           </div>
         </section>
-
-
-
         </div>
 
 
@@ -453,13 +454,12 @@ $_SESSION['login_use'] = 'ecell';
 
         <!--========== END PAGE CONTENT ==========-->
 
-        <!--========== FOOTER ==========-->
-        <footer class="g-bg-color--dark">
+        
 
     <!-- Copyright -->
   
  <!-- ==============================QUERIES STARTS============================= -->
- <section class="container-fluid contact">
+ <!-- <section class="container-fluid contact">
   <form class="py-4" method="post" name="NEO-QUERIES">
   <div class="heading text-center mx-5 pb-4" data-aos="fade-up" data-aos-duration="2000">ASK YOUR QUERIES</div>
   <div class="row">
@@ -480,88 +480,40 @@ $_SESSION['login_use'] = 'ecell';
 </div>
   </div>
   </form>
-</section>
+</section> -->
 <!-- ==============================QUERIES END============================= -->
 
-    <div class="container" style="padding-top:22px">
 
+<section id="contact" style="background-color: #1c1c1c;">
+    <div class="container-fluid">
       <div class="row">
-
-        <div class="col-md-3">
-          <div>
-            <img src="https://startupconclave.ecellvnit.org/static/img/E-Cell_white.png" alt="" height="80" style="padding-top:10px">
-          </div>
+        <div class="col-md-3 my-md-4 mt-4 mb-2 ml-3 text-center text-md-left">
+          <img src="images/ECell White Logo.png" alt="">
         </div>
-
-        <div class="col-md-3">
-          <h4 class="g-color--white-opacity">Quick Links</h4>
-          <p class="g-color--white-opacity-light"><a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">E-Cell official website</a></p>
-          <p class="g-color--white-opacity-light"><a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">E-Cell official website</a></p>
-          <p class="g-color--white-opacity-light"><a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">E-Cell official webiste</a></p>
+        <div class="col-md-4 my-4 text-white text-center text-md-left">
+          <div class="mt-5" style="font-size: 1.5rem;">Contact Us</div>
+          <div class="mt-3" style="font-size: 1rem;">For Queries and Details: </div>
+          <div style="font-size: 1rem;font-weight: 700;"><a style="color: #fff;" href="mailto:contact@ecellvnit.org">contact@ecellvnit.org</a></div>
+          <div class="mt-3" style="font-size: 1rem;">For Association and Sponsorship: </div>
+          <div style="font-size: 1rem;font-weight: 700;"><a style="color: #fff;" href="mailto:corporateaffairs@ecellvnit.co.in">corporateaffairs@ecellvnit.co.in</a></div>
         </div>
-
-        <div class="col-md-3">
-          <h4 class="follow-ecell">Follow Ecell VNIT</h4>
-
-          <div class="row share-row justify-content-center">
-
-            <div class="col-md-4 col-2">
-              <a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">
-                <i class="fab fa-facebook fa-2x"></i>
-                <span class="aria-hidden sr-only">Facebook</span>
-              </a>
-            </div>
-            <div class="col-md-4 col-2">
-              <a class="s-header__action-link" href="https://twitter.com/ecell_vnit" target="_blank">
-                <i class="fab fa-twitter fa-2x"></i>
-                <span class="aria-hidden sr-only">Twitter</span>
-              </a>
-            </div>
-            <div class="col-md-4 col-2">
-              <a class="s-header__action-link" href=" https://www.instagram.com/ecellvnit/" target="_blank">
-                <i class="fab fa-instagram fa-2x"></i>
-                <span class="aria-hidden sr-only">Instagram</span>
-              </a>
-            </div>
-            <div class="col-md-4 my-3 col-2">
-              <a class="s-header__action-link" href=" https://www.linkedin.com/company/6615520/" target="_blank">
-                <i class="fab fa-linkedin-in fa-2x"></i>
-                <span class="aria-hidden sr-only">LinkedIn</span>
-              </a>
-            </div>
-            <div class="col-md-4 my-3 col-2">
-              <a class="s-header__action-link" href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank">
-                <i class="fab fa-youtube fa-2x"></i>
-                <span class="aria-hidden sr-only">YouTube</span>
-              </a>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-md-3">
-          <h4 class="g-color--white-opacity">Our Hosting Partner</h4>
-          <div class="hosting-partner-image-container">
-            <a href="https://www.znetlive.com/">
-              <img src="images/znetlive.png" alt="hosting partner - znet">
-            </a>
-          </div>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-sm-12" style="position:relative; text-align:center">
-          <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity g-padding-y-20--md">Copyright:
-            <a class="g-color--primary" href="https://ecellvnit.org" target="_blank">E-Cell VNIT</a>
-          </p>
-
+        <div class="col-md-4 my-4 text-white text-center text-md-left">
+          <div class="mt-5" style="font-size: 1.5rem;">Follow E-Cell VNIT</div>
+          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://www.instagram.com/ecellvnit/" target="_blank"><img src="images/Instagram Logo.png" width="25px" alt="">&nbsp; INSTAGRAM</a></div>
+          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://www.linkedin.com/company/6615520/" target="_blank"><img src="images/LinkedIN logo.png" width="25px" alt="">&nbsp; LINKEDIN</a></div>
+          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://m.facebook.com/vnitecell/" target="_blank"><img src="images/Facebook Logo.png" width="25px" alt="">&nbsp; FACEBOOK</a></div>
+          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank"><img src="images/Yoututbe Logo.png" width="25px" alt="">&nbsp; YOUTUBE</a></div>
+          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://twitter.com/ecell_vnit" target="_blank"><img src="images/Twitter Logo.png" width="25px" alt="">&nbsp; TWITTER</a></div>
         </div>
       </div>
+      <div class="mt-5 text-center text-white" style="font-size: 1.5rem;">Visit Us</div>
+      <div class="mt-3 pb-3 mx-auto text-white text-center" style="font-size: 0.9rem;width: 60vw;">E-Cell office, 1st Floor VNIT Canteen, Visvesvaraya National Institute Of Technology, South Ambazari Road, Abhyankar Nagar, Nagpur-440010</div>
 
+      <div class="mt-3 pb-4 mx-auto text-white text-center">Copy-right: <span><a style="color: #FF4200;" href="https://www.ecellvnit.org/">E-Cell VNIT</a></span></div>
     </div>
-    <!-- End Copyright -->
-  </footer>
-
-    <!--Javascript for sliding between perks and startups-->
+  </section>
+  
+        <!--Javascript for sliding between perks and startups-->
     <script src="js/slider.js"></script>
     <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
