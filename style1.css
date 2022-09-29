@@ -270,6 +270,7 @@ html {
 @media screen and (max-width: 480px) {
   .ecell-presents{
     width: 320px;
+    transform: translate(0,0);
 }
   .divdivdiv{
     width: 320px;
@@ -281,4 +282,22 @@ html {
   background-color: white;
   color:white;
   height:1px;
+}
+
+nav{
+  width: 100vw;
+}
+button{
+  z-index: 200;
+}
+
+@media (min-width: 425px) {
+  .g-ver-center--lg {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    /* right: 0; */
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+  }
 }

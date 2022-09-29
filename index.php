@@ -73,9 +73,9 @@ $_SESSION['login_use'] = 'ecell';
                 <img src="C_suites_logo.png" alt="Ecell Logo" height="40" width="100%" style="margin-left:10px;">
               </a>
 
-              <!-- <button class="navbar-toggler bg-light ml-auto" type="button" data-toggle="collapse" data-target="#Navbar">
+              <button class="navbar-toggler bg-light ml-auto" type="button" data-toggle="collapse" data-target="#Navbar">
                 <i class="fas fa-bars"></i>
-              </button> -->
+              </button>
 
               <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ml-auto list-unstyled">
@@ -97,8 +97,8 @@ $_SESSION['login_use'] = 'ecell';
         <!--========== PROMO BLOCK ==========-->
         <div class="m-intro s-promo-block-v3 g-bg-position--center g-fullheight--xs main_header" style="background-image: url('vector-JUNE-2020-100.png'); display:flex;">
           
-          <div class="container divdivdiv g-ver-center--xs g-padding-y-100--xs g-padding-y-0--lg" style="align-itens:center;">
-            <div style="align-itens:center;" class="g-margin-t-10--xs g-margin-t-0--sm g-margin-b-30--xs g-margin-b-70--md g-margin-l-20--xs g-margin-l-80--sm ecell-presents" >
+          <div class="container divdivdiv g-ver-center--xs g-padding-y-100--xs g-padding-y-0--lg" style="align-itens:center;z-index:250">
+            <div style="align-itens:center;z-index:200;" class="g-margin-t-10--xs g-margin-t-0--sm g-margin-b-3--xs g-margin-b-7--md g-margin-l-2--xs g-margin-l-8--sm ecell-presents" >
                  <!-- <div style="display:flex; align-items:center ; margin:auto">
                      <img src="https://startupconclave.ecellvnit.org/static/img/E-Cell_white.png" alt="Ecell Logo" height="50" style="float:right; z-index:2"/>
                      <p class="g-color--white-opacity" style="position: relative;margin-left:10px;z-index:2; margin-top:22px">presents</p>
@@ -114,15 +114,11 @@ $_SESSION['login_use'] = 'ecell';
                     <div style="align-itens:center;" class="col-sm-6 col-sm-5 col-lg-5">
                         <p class="g-color--white-opacity g-font-size-20--xs">Grow yourself and nurture your start-up with us!</p>
                     </div>
-                    <div class="col text-center">
-                      <button type="submit"  name="submit"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="submit">Submit</button>      
+                    <div class="col text-center" style="z-index:250">
+                      <a href="form.php" type="submit" name="submit"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="submit">Submit</a>      
                     </div>
                 
-                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
-                    <!-- <a class="btn btn-outline-light" id="reg_button" href="#register" title="Register">
-                        <span class="text-uppercase">Join Now!</span>
-                    </a> -->
-                </div>
+                
             </div>
         </div>
               <div id="particleCanvas-Orange" class="e-particles-orange"></div>
@@ -465,7 +461,7 @@ $_SESSION['login_use'] = 'ecell';
     <!-- Copyright -->
   
  <!-- ==============================QUERIES STARTS============================= -->
- <section class="container-fluid contact">
+ <!-- <section class="container-fluid contact">
   <form class="py-4" method="post" name="NEO-QUERIES">
   <div class="heading text-center mx-5 pb-4" data-aos="fade-up" data-aos-duration="2000">ASK YOUR QUERIES</div>
   <div class="row">
@@ -485,88 +481,39 @@ $_SESSION['login_use'] = 'ecell';
           </div>
           </form>
 </section>
-<hr id="hr_">
+<hr id="hr_"> -->
 <!-- ==============================QUERIES END============================= -->
 
-    <div class="container" style="padding-top:22px">
-
+<section id="contact" style="background-color: #1c1c1c;">
+    <div class="container-fluid">
       <div class="row">
-
-        <div class="col-md-3">
-          <div>
-            <img src="https://startupconclave.ecellvnit.org/static/img/E-Cell_white.png" alt="" height="80" style="padding-top:10px">
-          </div>
+        <div class="col-md-3 my-md-4 mt-4 mb-2 ml-3 text-center text-md-left">
+          <img src="images/ECell White Logo.png" alt="">
         </div>
-
-        <div class="col-md-3">
-          <h4 class="g-color--white-opacity">Quick Links</h4>
-          <p class="g-color--white-opacity-light"><a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">E-Cell official website</a></p>
-          <p class="g-color--white-opacity-light"><a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">E-Cell official website</a></p>
-          <p class="g-color--white-opacity-light"><a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">E-Cell official webiste</a></p>
+        <div class="col-md-4 my-4 text-white text-center text-md-left">
+          <div class="mt-5" style="font-size: 1.5rem;">Contact Us</div>
+          <div class="mt-3" style="font-size: 1rem;">For Queries and Details: </div>
+          <div style="font-size: 1rem;font-weight: 700;"><a style="color: #fff;" href="mailto:contact@ecellvnit.org">contact@ecellvnit.org</a></div>
+          <div class="mt-3" style="font-size: 1rem;">For Association and Sponsorship: </div>
+          <div style="font-size: 1rem;font-weight: 700;"><a style="color: #fff;" href="mailto:corporateaffairs@ecellvnit.co.in">corporateaffairs@ecellvnit.co.in</a></div>
         </div>
-
-        <div class="col-md-3">
-          <h4 class="follow-ecell">Follow Ecell VNIT</h4>
-
-          <div class="row share-row justify-content-center">
-
-            <div class="col-md-4 col-2">
-              <a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">
-                <i class="fab fa-facebook fa-2x"></i>
-                <span class="aria-hidden sr-only">Facebook</span>
-              </a>
-            </div>
-            <div class="col-md-4 col-2">
-              <a class="s-header__action-link" href="https://twitter.com/ecell_vnit" target="_blank">
-                <i class="fab fa-twitter fa-2x"></i>
-                <span class="aria-hidden sr-only">Twitter</span>
-              </a>
-            </div>
-            <div class="col-md-4 col-2">
-              <a class="s-header__action-link" href=" https://www.instagram.com/ecellvnit/" target="_blank">
-                <i class="fab fa-instagram fa-2x"></i>
-                <span class="aria-hidden sr-only">Instagram</span>
-              </a>
-            </div>
-            <div class="col-md-4 my-3 col-2">
-              <a class="s-header__action-link" href=" https://www.linkedin.com/company/6615520/" target="_blank">
-                <i class="fab fa-linkedin-in fa-2x"></i>
-                <span class="aria-hidden sr-only">LinkedIn</span>
-              </a>
-            </div>
-            <div class="col-md-4 my-3 col-2">
-              <a class="s-header__action-link" href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank">
-                <i class="fab fa-youtube fa-2x"></i>
-                <span class="aria-hidden sr-only">YouTube</span>
-              </a>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-md-3">
-          <h4 class="g-color--white-opacity">Our Hosting Partner</h4>
-          <div class="hosting-partner-image-container">
-            <a href="https://www.znetlive.com/">
-              <img src="images/znetlive.png" alt="hosting partner - znet">
-            </a>
-          </div>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-sm-12" style="position:relative; text-align:center">
-          <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity g-padding-y-20--md">Copyright:
-            <a class="g-color--primary" href="https://ecellvnit.org" target="_blank">E-Cell VNIT</a>
-          </p>
-
+        <div class="col-md-4 my-4 text-white text-center text-md-left">
+          <div class="mt-5" style="font-size: 1.5rem;">Follow E-Cell VNIT</div>
+          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://www.instagram.com/ecellvnit/" target="_blank"><img src="images/Instagram Logo.png" width="25px" alt="">&nbsp; INSTAGRAM</a></div>
+          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://www.linkedin.com/company/6615520/" target="_blank"><img src="images/LinkedIN logo.png" width="25px" alt="">&nbsp; LINKEDIN</a></div>
+          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://m.facebook.com/vnitecell/" target="_blank"><img src="images/Facebook Logo.png" width="25px" alt="">&nbsp; FACEBOOK</a></div>
+          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank"><img src="images/Yoututbe Logo.png" width="25px" alt="">&nbsp; YOUTUBE</a></div>
+          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://twitter.com/ecell_vnit" target="_blank"><img src="images/Twitter Logo.png" width="25px" alt="">&nbsp; TWITTER</a></div>
         </div>
       </div>
+      <div class="mt-5 text-center text-white" style="font-size: 1.5rem;">Visit Us</div>
+      <div class="mt-3 pb-3 mx-auto text-white text-center" style="font-size: 0.9rem;width: 60vw;">E-Cell office, 1st Floor VNIT Canteen, Visvesvaraya National Institute Of Technology, South Ambazari Road, Abhyankar Nagar, Nagpur-440010</div>
 
+      <div class="mt-3 pb-4 mx-auto text-white text-center">Copy-right: <span><a style="color: #FF4200;" href="https://www.ecellvnit.org/">E-Cell VNIT</a></span></div>
     </div>
-    <!-- End Copyright -->
-  </footer>
-
-    <!--Javascript for sliding between perks and startups-->
+  </section>
+  
+        <!--Javascript for sliding between perks and startups-->
     <script src="js/slider.js"></script>
     <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -608,6 +555,3 @@ $_SESSION['login_use'] = 'ecell';
   </body>
     <!-- End Body -->
 </html>
-
-
-
