@@ -97,26 +97,28 @@ $_SESSION['login_use'] = 'ecell';
         <!--========== PROMO BLOCK ==========-->
         <div class="m-intro s-promo-block-v3 g-bg-position--center g-fullheight--xs main_header" style="background-image: url('vector-JUNE-2020-100.png'); display:flex;">
           
-          <div class="container divdivdiv g-ver-center--xs g-padding-y-100--xs g-padding-y-0--lg" style="align-itens:center;z-index:250">
-            <div style="align-itens:center;z-index:200;" class="g-margin-t-10--xs g-margin-t-0--sm g-margin-b-3--xs g-margin-b-7--md g-margin-l-2--xs g-margin-l-8--sm ecell-presents" >
+          <div class="container divdivdiv g-ver-center--xs g-padding-y-100--xs g-padding-y-0--lg" style="align-items:center;z-index:250">
+            <div style="align-items:center;z-index:200;" class="g-margin-t-10--xs g-margin-t-0--sm g-margin-b-3--xs g-margin-b-7--md g-margin-l-2--xs g-margin-l-8--sm ecell-presents" >
                  <!-- <div style="display:flex; align-items:center ; margin:auto">
                      <img src="https://startupconclave.ecellvnit.org/static/img/E-Cell_white.png" alt="Ecell Logo" height="50" style="float:right; z-index:2"/>
                      <p class="g-color--white-opacity" style="position: relative;margin-left:10px;z-index:2; margin-top:22px">presents</p>
                 </div> -->
-                <h1 style="align-itens:center;" class="text-uppercase g-font-size-50--xs g-font-size-60--sm g-font-size-80--lg g-color--white mt-5" style="font-weight:700; text-shadow: 2px 0 #333; letter-spacing:2px; position: relative;">C-Suites</h1>
+                <h1 style="align-items:center;" class="text-uppercase g-font-size-50--xs g-font-size-60--sm g-font-size-80--lg g-color--white mt-5" style="font-weight:700; text-shadow: 2px 0 #333; letter-spacing:2px; position: relative;">C-Suites</h1>
                 
                     <br>
-                    <div style="align-itens:center;" class="col-sm-7 col-sm-6 col-lg-7">
+                    <div style="align-items:center;" class="col-sm-7 col-sm-6 col-lg-7">
                         <p class="g-color--white-opacity g-font-size-20--xs">C-suites is an initiative that aims to help aspiring entrepreneurs of VNIT and
                           ventures their ideas to the next level through a defined framework.</p>
                     </div>
                     <br>
-                    <div style="align-itens:center;" class="col-sm-6 col-sm-5 col-lg-5">
+                    <div style="align-items:center;" class="col-sm-6 col-sm-5 col-lg-5">
                         <p class="g-color--white-opacity g-font-size-20--xs">Grow yourself and nurture your start-up with us!</p>
                     </div>
-                    <div class="col text-center" style="z-index:250">
-                      <a href="form.php" type="submit" name="submit"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="submit">Join Now!</a>      
-                    </div>
+                    <div class="d-flex justify-content-center ">
+                      <a href="form.php"> 
+                      <button class="rounded-pill mx-4 btn my-4" style="background-color:#f18d11;color: #fff;">Register Now</button></a>
+                      <a href="https://chat.whatsapp.com/KA3wsL2BBzhG30cSiHGAgX" target="_blank"> 
+                      <button class="rounded-pill btn mx-4 my-4" style="background-color:#f18d11;color:#fff;font-size: medium;">Join our community</button></a></div>
                 
                 
             </div>
@@ -440,12 +442,15 @@ $_SESSION['login_use'] = 'ecell';
               <div class="heading text-center" styel="color:#f18d11">❝ LaunchPad ❞</div>
               <div class="para text-center"style="margin:3% 0">
                   Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:chocolate;">IDEATE, CREATE AND NETWORK</span> with other members of this engaging community.
-                  <a href="form.php"> 
-                  <button class="btn btn3" styel="color:#f18d11">Join Now</button></a>
+                  <div class="d-flex justify-content-center ">
+                      <a href="form.php"> 
+                      <button class="rounded-pill mx-4 btn my-4" style="background-color:#f18d11;color: #fff;">Register Now</button></a>
+                      <a href="https://chat.whatsapp.com/KA3wsL2BBzhG30cSiHGAgX" target="_blank"> 
+                      <button class="rounded-pill btn mx-4 my-4" style="background-color:#f18d11;color:#fff;font-size: medium;">Join our community</button></a></div>
             </div>
             </div>
             <div class="col-md-6">
-              <img class="image_half" src="images/vectors/market launch-bro.svg"  alt="" data-aos="fade-left"data-aos-duration="2000">
+              <img class="image_half" style="margin-top: 70px;" src="images/launchpad.jpeg"  alt="" data-aos="fade-left"data-aos-duration="2000">
             </div>
           </div>
         </section>
