@@ -54,6 +54,7 @@ $_SESSION['login_use'] = 'ecell';
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="timeline.css">
 </head>
 
 
@@ -115,7 +116,7 @@ $_SESSION['login_use'] = 'ecell';
                         <p class="g-color--white-opacity g-font-size-20--xs">Grow yourself and nurture your start-up with us!</p>
                     </div>
                     <div class="col text-center" style="z-index:250">
-                      <a href="form.php" type="submit" name="submit"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="submit">Submit</a>      
+                      <a href="form.php" type="submit" name="submit"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="submit">Join Now!</a>      
                     </div>
                 
                 
@@ -389,11 +390,51 @@ $_SESSION['login_use'] = 'ecell';
 
 
         </div>
+        <!-- <div class="g-promo-section" style="background-color:#2b2a2a" id="about">
+            <div class="container g-padding-y-30--xs g-padding-y-30--sm g-padding-x-80--md g-padding-x-60--sm g-padding-x-40--xs"> -->
+
+                <h2 class="orange_text" style="text-align:center;"><b>Timeline</b></h2>
+                <ul class="timeline">
+            
+            <li>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="flag" style="background-color:#f18d11"><b>Round 1</b></span>
+                </div>
+                <div class="desc" style="background:none;">Shortlisting on the basis of Form responses. Submission before <span style="color:orange">5th oct 2022</span></div>
+              </div>
+            </li>
+            
+       
+            <li>
+              <div class="direction-l">
+                <div class="flag-wrapper">
+                  <span class="flag" style="background-color:#f18d11">Round 2</span>
+                  
+                </div>
+                <div class="desc" style="background:none;">Pitch deck Submission and presentation.</div>
+              </div>
+            </li>
+
+        
+            <li>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="flag" style="background-color:#f18d11">Round 3</span>
+                </div>
+                <div class="desc" style="background:none;"> Interview</div>
+              </div>
+            </li>
+          </ul>
+          <!-- </div> -->
+          
+            <!-- </div>
+        </div> -->
 
         <!-- End Features -->
-
+        
           
-        <section class="community container-fluid d-none d-md-block" style="margin-bottom:-3%;" id="register">
+        <section class="community container-fluid d-none d-md-block" style="margin-bottom:-3%;background-color:#181818;" id="register">
           <div class="heading text-center" style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000" styel="color:#f18d11">JOIN THE COMMUNITY</div>
           <div class="row">
             <div class="col-md-4"style="margin-left:10%;margin-top:5%"data-aos="fade-right"data-aos-duration="2000">
