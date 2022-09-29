@@ -365,7 +365,7 @@ $_SESSION['login_use'] = 'ecell';
         </div>
       </div>
     
-      <div class="col-md-6">
+      <!-- <div class="col-md-6">
         <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
           <div class="accordion-header" id="panelsStayOpen-headingSix">
             <h2 class="clearfix mb-0">
@@ -376,7 +376,7 @@ $_SESSION['login_use'] = 'ecell';
             <div class="accordion-body">Study material will be provided after the registration of the participant</div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
   </div>

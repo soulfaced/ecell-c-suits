@@ -34,12 +34,18 @@ $name = $_SESSION['name'];
     <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
     </head>
   <body>
+    
         <div class="">
         <div class="container d-flex align-items-center justify-content-center min-vh-100">
             <div class="row text-center">
                 <div class="">
-                  <?php echo "<h4>We will contact you soon. <br>Welcome to the community,<b style=color:red> $name!</b></h4>";?><br>
-                <button class="btn btn-danger rounded-pill justify-content-center "><a class="badge badge-danger rounded-pill" href="index.php">Return to Home</a></button>
+                <img src="images/vectors/rocket.svg" alt="" style="width:30vw" />
+                  <?php echo "<b style=color:red> <br>Welcome to the community,<b style=color:white><br><h4>Click button below to join our Community. $name!</b></h4>";?><br>
+                <button class="btn btn-danger rounded-pill justify-content-center "><a class="badge badge-danger rounded-pill" href="https://chat.whatsapp.com/KA3wsL2BBzhG30cSiHGAgX">LaunchPad</a></button>
+            
+                <br><br><br>
+                
+                  <button class="btn btn-danger rounded-pill justify-content-center "><a class="badge badge-danger rounded-pill" href="index.php">Return to Home</a></button>
                 </div>
             </div>
         </div>
