@@ -238,7 +238,9 @@ html {
 
   figcaption h3{
   padding-bottom: 20px;
+  font-weight: bold;
 }
+
 
 .orange_text{
   color:#f18d11;
@@ -264,13 +266,19 @@ html {
   width:100%;
 }
 
-.ecell-presents{
-  width: 320px;
-  z-index: 100;
-}
 
 @media screen and (max-width: 480px) {
   .ecell-presents{
     width: 320px;
+}
+  .divdivdiv{
+    width: 320px;
+    margin: auto;
+  }
+}
 
-}}
+#hr_{
+  background-color: white;
+  color:white;
+  height:1px;
+}

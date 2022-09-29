@@ -40,7 +40,7 @@ $_SESSION['login_use'] = 'ecell';
     <link href="vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" href="style1.css">
+   
 
 
     <!-- Theme Skins -->
@@ -53,6 +53,7 @@ $_SESSION['login_use'] = 'ecell';
 
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style1.css">
 </head>
 
 
@@ -63,13 +64,18 @@ $_SESSION['login_use'] = 'ecell';
 
         <nav class="navbar navbar-expand-sm fixed-top">
             <div class="container">
-            <a class="navbar-brand ml-0" href="https://www.ecellvnit.org/">
+             
+              <a class="navbar-brand ml-0" href="https://www.ecellvnit.org/">
                     <img src="images/logo-ecell.png" alt="Ecell Logo" height="40" width="100%">
               </a>
               <div>|</div>
               <a class="navbar-brand ml-0" href="#">
                 <img src="C_suites_logo.png" alt="Ecell Logo" height="40" width="100%" style="margin-left:10px;">
               </a>
+
+              <!-- <button class="navbar-toggler bg-light ml-auto" type="button" data-toggle="collapse" data-target="#Navbar">
+                <i class="fas fa-bars"></i>
+              </button> -->
 
               <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ml-auto list-unstyled">
@@ -78,6 +84,7 @@ $_SESSION['login_use'] = 'ecell';
                   <li class="nav-item ml-5"><a class="text-light nav-link" href="form.php">Register</a></li>
                   <li class="nav-item ml-5"><a class="text-light nav-link" href="#contact">Contact</a></li>
                   <li class="nav-item ml-5">
+                 
                 </li>
                 </ul>
               </div>
@@ -88,43 +95,42 @@ $_SESSION['login_use'] = 'ecell';
 
 
         <!--========== PROMO BLOCK ==========-->
-        <div class="m-intro s-promo-block-v3 g-bg-position--center g-fullheight--xs" style="background-image: url('vector-JUNE-2020-100.png');">
+        <div class="m-intro s-promo-block-v3 g-bg-position--center g-fullheight--xs main_header" style="background-image: url('vector-JUNE-2020-100.png'); display:flex;">
           
-          <div class="container g-ver-center--xs g-padding-y-100--xs g-padding-y-0--lg">
-            <div class="g-margin-t-10--xs g-margin-t-0--sm g-margin-b-30--xs g-margin-b-70--md g-margin-l-20--xs g-margin-l-80--sm ecell-presents" >
+          <div class="container divdivdiv g-ver-center--xs g-padding-y-100--xs g-padding-y-0--lg" style="align-itens:center;">
+            <div style="align-itens:center;" class="g-margin-t-10--xs g-margin-t-0--sm g-margin-b-30--xs g-margin-b-70--md g-margin-l-20--xs g-margin-l-80--sm ecell-presents" >
                  <!-- <div style="display:flex; align-items:center ; margin:auto">
                      <img src="https://startupconclave.ecellvnit.org/static/img/E-Cell_white.png" alt="Ecell Logo" height="50" style="float:right; z-index:2"/>
                      <p class="g-color--white-opacity" style="position: relative;margin-left:10px;z-index:2; margin-top:22px">presents</p>
                 </div> -->
-                <h1 class="text-uppercase g-font-size-50--xs g-font-size-60--sm g-font-size-80--lg g-color--white mt-5" style="font-weight:700; text-shadow: 2px 0 #333; letter-spacing:2px; position: relative;">C-Suites</h1>
+                <h1 style="align-itens:center;" class="text-uppercase g-font-size-50--xs g-font-size-60--sm g-font-size-80--lg g-color--white" style="font-weight:700; text-shadow: 2px 0 #333; letter-spacing:2px; position: relative;">C-Suites</h1>
                 
                     <br>
-                    <div class="col-sm-7 col-sm-6 col-lg-7">
+                    <div style="align-itens:center;" class="col-sm-7 col-sm-6 col-lg-7">
                         <p class="g-color--white-opacity g-font-size-20--xs">C-suites is an initiative that aims to help aspiring entrepreneurs of VNIT and
                           ventures their ideas to the next level through a defined framework.</p>
                     </div>
                     <br>
-                    <div class="col-sm-6 col-sm-5 col-lg-5">
+                    <div style="align-itens:center;" class="col-sm-6 col-sm-5 col-lg-5">
                         <p class="g-color--white-opacity g-font-size-20--xs">Grow yourself and nurture your start-up with us!</p>
-                        
+                    </div>
+                    <div class="col text-center">
+                      <button type="submit"  name="submit"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="submit">Submit</button>      
                     </div>
                 
-
-                    <a href="form.php"> 
-                      <button  class="btn text-white rounded-pill" style="background-color: #f18d11; z-index:100;">Join Now</button></a>
-                <!-- <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
-                    <a class="btn btn-outline-light" id="reg_button" href="#register" title="Register">
+                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
+                    <!-- <a class="btn btn-outline-light" id="reg_button" href="#register" title="Register">
                         <span class="text-uppercase">Join Now!</span>
-                    </a>
-                </div> -->
+                    </a> -->
+                </div>
             </div>
         </div>
-              <!-- <div id="particleCanvas-Orange" class="e-particles-orange"></div>
-              <div id="particleCanvas-Blue" class="e-particles-blue"></div> -->
+              <div id="particleCanvas-Orange" class="e-particles-orange"></div>
+              <div id="particleCanvas-Blue" class="e-particles-blue"></div>
           </div>
 
 
-        
+
         <div class="g-promo-section" style="background:#000" id="about">
             <div class="container g-padding-y-30--xs g-padding-y-30--sm g-padding-x-80--md g-padding-x-60--sm g-padding-x-40--xs">
 
@@ -141,8 +147,8 @@ $_SESSION['login_use'] = 'ecell';
                           develop personally while also fostering a sense of community.
                         </p>
                     </div>
-                    <div class="col-md-6" >
-                        <img class="image_holding_hands" src="https://th.bing.com/th/id/R.4e1c36b7b754014adba52118ed3a474e?rik=fFrnrHFXnydeAA&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f3153-47-suits-tie-black_background-Hitman-video_games-white_clothing-red_tie-Hitman_Absolution.jpg&ehk=jB9VsW13NvWCAJ6oy6dmaw3s%2fdxJ2%2fLYf37yR0xIEDo%3d&risl=&pid=ImgRaw&r=0" alt="" style="max-width:100%; max-height:400px">
+                    <div class="col-md-6 " >
+                        <img class="image_holding_hands" src="https://th.bing.com/th/id/R.4e1c36b7b754014adba52118ed3a474e?rik=fFrnrHFXnydeAA&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f3153-47-suits-tie-black_background-Hitman-video_games-white_clothing-red_tie-Hitman_Absolution.jpg&ehk=jB9VsW13NvWCAJ6oy6dmaw3s%2fdxJ2%2fLYf37yR0xIEDo%3d&risl=&pid=ImgRaw&r=0" alt="" style="width:100%; height:100%">
                     </div>
                 </div>
             <!--</div>-->
@@ -172,7 +178,7 @@ $_SESSION['login_use'] = 'ecell';
 
             <div id="startups-header" class="col-6 text-center">
               <a class="unstyled-link" role="button">
-                <h3>Frequently Asked Questions</h3>
+                <h3>FAQS</h3>
                 <div class="slider-underline"></div>
               </a>
             </div>
@@ -189,7 +195,7 @@ $_SESSION['login_use'] = 'ecell';
                     
                     <img src="images/vectors/Seminar-bro.svg" alt="" />
                     <figcaption>
-                        <h3>
+                        <h3 class="h2_card">
                           Connect to mentors, incubators and investors
                         </h3>
                         <p>- One-on-one dedicated mentoring
@@ -201,7 +207,7 @@ $_SESSION['login_use'] = 'ecell';
                   
                   <img src="images/vectors/Coding workshop-bro.svg" alt="" />
                   <figcaption>
-                      <h3>
+                      <h3 class="h2_card">
                         Exclusive Guest Lectures by eminent personalities
                       </h3>
                       <p>High profile guest lectures
@@ -224,7 +230,7 @@ $_SESSION['login_use'] = 'ecell';
               
               <img src="images/vectors/Mathematics-bro.svg" alt="" />
               <figcaption>
-                  <h3>
+                  <h3 class="h2_card">
                     Curated Learning Tools
                   </h3>
                   <p>regular curated articles about several concepts of
@@ -236,7 +242,7 @@ $_SESSION['login_use'] = 'ecell';
             
             <img src="images/vectors/Meeting-bro.svg" alt="" />
             <figcaption>
-                <h3>
+                <h3 class="h2_card">
                   Biweekly Meetups 
                 </h3>
                 <p> activities like group discussion, case studies, pitching
@@ -247,7 +253,7 @@ $_SESSION['login_use'] = 'ecell';
           
           <img src="images/vectors/Feedback-bro.svg" alt="" />
           <figcaption>
-              <h3>
+              <h3 class="h2_card">
                 Feedback based sessions
               </h3>
               <p>lecture on a particular topic by an expert, anytime, as
@@ -391,12 +397,12 @@ $_SESSION['login_use'] = 'ecell';
         <!-- End Features -->
 
           
-        <section class="community container-fluid d-md-block" style="margin:auto;" id="register">
+        <section class="community container-fluid d-none d-md-block" style="margin-bottom:-3%;" id="register">
           <div class="heading text-center" style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000" styel="color:#f18d11">JOIN THE COMMUNITY</div>
           <div class="row">
             <div class="col-md-4"style="margin-left:10%;margin-top:5%"data-aos="fade-right"data-aos-duration="2000">
-              <div class="heading text-center" styel="color:#f18d11;margin:auto;">❝ LaunchPad ❞</div>
-              <div class="para text-center"style="margin:auto;">
+              <div class="heading text-center" styel="color:#f18d11">❝ LaunchPad ❞</div>
+              <div class="para text-center"style="margin:3% 0">
                   Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:chocolate;">IDEATE, CREATE AND NETWORK</span> with other members of this engaging community.
                   <a href="form.php"> 
                   <button class="btn btn3" styel="color:#f18d11">Join Now</button></a>
@@ -407,6 +413,9 @@ $_SESSION['login_use'] = 'ecell';
             </div>
           </div>
         </section>
+
+
+
         </div>
 
 
@@ -417,13 +426,13 @@ $_SESSION['login_use'] = 'ecell';
             <div class="row justify-content-center">
               <div class="col-sm-4 contact_block">
                   <div class="g-text-center--xs">
-                      <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs" style="background-color: #f18d11">Grege Rodrigues</h4>
+                      <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs">Grege Rodrigues</h4>
                        <p class="g-color--white">+91 79720 96424<br>rodriguesgrege@gmail.com</p>
                   </div>
               </div>
                 <div class="col-sm-4 contact_block">
                     <div class="g-text-center--xs">
-                        <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs" style="background-color: #f18d11">Kshitij Burman</h4>
+                        <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs">Kshitij Burman</h4>
                          <p class="g-color--white">+91 90226 15920<br>kshitijburman2002@gmail.com</p>
                     </div>
                 </div>
@@ -431,13 +440,13 @@ $_SESSION['login_use'] = 'ecell';
             <div class="row justify-content-center">
               <div class="col-sm-4 contact_block">
                   <div class="g-text-center--xs">
-                      <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs" style="background-color: #f18d11">Ishan Pandey</h4>
+                      <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs">Ishan Pandey</h4>
                        <p class="g-color--white">+91 63763 17859<br>ishanpandey786786@gmail.com</p>
                   </div>
               </div>
               <div class="col-sm-4 contact_block">
                   <div class="g-text-center--xs">
-                      <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs" style="background-color: #f18d11">Kavya Kumari</h4>
+                      <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs">Kavya Kumari</h4>
                        <p class="g-color--white">+91 96027 80967<br>kavyasingh9749@gmail.com</p>
                   </div>
               </div>
@@ -450,12 +459,13 @@ $_SESSION['login_use'] = 'ecell';
 
         <!--========== END PAGE CONTENT ==========-->
 
-        
+        <!--========== FOOTER ==========-->
+        <footer class="g-bg-color--dark">
 
     <!-- Copyright -->
   
  <!-- ==============================QUERIES STARTS============================= -->
- <!-- <section class="container-fluid contact">
+ <section class="container-fluid contact">
   <form class="py-4" method="post" name="NEO-QUERIES">
   <div class="heading text-center mx-5 pb-4" data-aos="fade-up" data-aos-duration="2000">ASK YOUR QUERIES</div>
   <div class="row">
@@ -470,46 +480,93 @@ $_SESSION['login_use'] = 'ecell';
     </div>
 
         <div class="col text-center">
-            <button type="submit"  name="submit"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="submit">Submit</button>
-        
-        
-</div>
-  </div>
-  </form>
-</section> -->
+            <button type="submit"  name="submit"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="submit">Submit</button>      
+        </div>
+          </div>
+          </form>
+</section>
+<hr id="hr_">
 <!-- ==============================QUERIES END============================= -->
 
+    <div class="container" style="padding-top:22px">
 
-<section id="contact" style="background-color: #1c1c1c;">
-    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 my-md-4 mt-4 mb-2 ml-3 text-center text-md-left">
-          <img src="images/ECell White Logo.png" alt="">
+
+        <div class="col-md-3">
+          <div>
+            <img src="https://startupconclave.ecellvnit.org/static/img/E-Cell_white.png" alt="" height="80" style="padding-top:10px">
+          </div>
         </div>
-        <div class="col-md-4 my-4 text-white text-center text-md-left">
-          <div class="mt-5" style="font-size: 1.5rem;">Contact Us</div>
-          <div class="mt-3" style="font-size: 1rem;">For Queries and Details: </div>
-          <div style="font-size: 1rem;font-weight: 700;"><a style="color: #fff;" href="mailto:contact@ecellvnit.org">contact@ecellvnit.org</a></div>
-          <div class="mt-3" style="font-size: 1rem;">For Association and Sponsorship: </div>
-          <div style="font-size: 1rem;font-weight: 700;"><a style="color: #fff;" href="mailto:corporateaffairs@ecellvnit.co.in">corporateaffairs@ecellvnit.co.in</a></div>
+
+        <div class="col-md-3">
+          <h4 class="g-color--white-opacity">Quick Links</h4>
+          <p class="g-color--white-opacity-light"><a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">E-Cell official website</a></p>
+          <p class="g-color--white-opacity-light"><a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">E-Cell official website</a></p>
+          <p class="g-color--white-opacity-light"><a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">E-Cell official webiste</a></p>
         </div>
-        <div class="col-md-4 my-4 text-white text-center text-md-left">
-          <div class="mt-5" style="font-size: 1.5rem;">Follow E-Cell VNIT</div>
-          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://www.instagram.com/ecellvnit/" target="_blank"><img src="images/Instagram Logo.png" width="25px" alt="">&nbsp; INSTAGRAM</a></div>
-          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://www.linkedin.com/company/6615520/" target="_blank"><img src="images/LinkedIN logo.png" width="25px" alt="">&nbsp; LINKEDIN</a></div>
-          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://m.facebook.com/vnitecell/" target="_blank"><img src="images/Facebook Logo.png" width="25px" alt="">&nbsp; FACEBOOK</a></div>
-          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank"><img src="images/Yoututbe Logo.png" width="25px" alt="">&nbsp; YOUTUBE</a></div>
-          <div  class="mt-3"><a style="color: #fff;font-size: 1rem;"  href="https://twitter.com/ecell_vnit" target="_blank"><img src="images/Twitter Logo.png" width="25px" alt="">&nbsp; TWITTER</a></div>
+
+        <div class="col-md-3">
+          <h4 class="follow-ecell">Follow Ecell VNIT</h4>
+
+          <div class="row share-row justify-content-center">
+
+            <div class="col-md-4 col-2">
+              <a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">
+                <i class="fab fa-facebook fa-2x"></i>
+                <span class="aria-hidden sr-only">Facebook</span>
+              </a>
+            </div>
+            <div class="col-md-4 col-2">
+              <a class="s-header__action-link" href="https://twitter.com/ecell_vnit" target="_blank">
+                <i class="fab fa-twitter fa-2x"></i>
+                <span class="aria-hidden sr-only">Twitter</span>
+              </a>
+            </div>
+            <div class="col-md-4 col-2">
+              <a class="s-header__action-link" href=" https://www.instagram.com/ecellvnit/" target="_blank">
+                <i class="fab fa-instagram fa-2x"></i>
+                <span class="aria-hidden sr-only">Instagram</span>
+              </a>
+            </div>
+            <div class="col-md-4 my-3 col-2">
+              <a class="s-header__action-link" href=" https://www.linkedin.com/company/6615520/" target="_blank">
+                <i class="fab fa-linkedin-in fa-2x"></i>
+                <span class="aria-hidden sr-only">LinkedIn</span>
+              </a>
+            </div>
+            <div class="col-md-4 my-3 col-2">
+              <a class="s-header__action-link" href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank">
+                <i class="fab fa-youtube fa-2x"></i>
+                <span class="aria-hidden sr-only">YouTube</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <h4 class="g-color--white-opacity">Our Hosting Partner</h4>
+          <div class="hosting-partner-image-container">
+            <a href="https://www.znetlive.com/">
+              <img src="images/znetlive.png" alt="hosting partner - znet">
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-sm-12" style="position:relative; text-align:center">
+          <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity g-padding-y-20--md">Copyright:
+            <a class="g-color--primary" href="https://ecellvnit.org" target="_blank">E-Cell VNIT</a>
+          </p>
+
         </div>
       </div>
-      <div class="mt-5 text-center text-white" style="font-size: 1.5rem;">Visit Us</div>
-      <div class="mt-3 pb-3 mx-auto text-white text-center" style="font-size: 0.9rem;width: 60vw;">E-Cell office, 1st Floor VNIT Canteen, Visvesvaraya National Institute Of Technology, South Ambazari Road, Abhyankar Nagar, Nagpur-440010</div>
 
-      <div class="mt-3 pb-4 mx-auto text-white text-center">Copy-right: <span><a style="color: #FF4200;" href="https://www.ecellvnit.org/">E-Cell VNIT</a></span></div>
     </div>
-  </section>
-  
-        <!--Javascript for sliding between perks and startups-->
+    <!-- End Copyright -->
+  </footer>
+
+    <!--Javascript for sliding between perks and startups-->
     <script src="js/slider.js"></script>
     <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
