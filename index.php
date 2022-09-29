@@ -85,7 +85,6 @@ $_SESSION['login_use'] = 'ecell';
                   <li class="nav-item ml-5"><a class="text-light nav-link" href="form.php">Register</a></li>
                   <li class="nav-item ml-5"><a class="text-light nav-link" href="#contact">Contact</a></li>
                   <li class="nav-item ml-5">
-                 
                 </li>
                 </ul>
               </div>
@@ -104,7 +103,7 @@ $_SESSION['login_use'] = 'ecell';
                      <img src="https://startupconclave.ecellvnit.org/static/img/E-Cell_white.png" alt="Ecell Logo" height="50" style="float:right; z-index:2"/>
                      <p class="g-color--white-opacity" style="position: relative;margin-left:10px;z-index:2; margin-top:22px">presents</p>
                 </div> -->
-                <h1 style="align-itens:center;" class="text-uppercase g-font-size-50--xs g-font-size-60--sm g-font-size-80--lg g-color--white" style="font-weight:700; text-shadow: 2px 0 #333; letter-spacing:2px; position: relative;">C-Suites</h1>
+                <h1 style="align-itens:center;" class="text-uppercase g-font-size-50--xs g-font-size-60--sm g-font-size-80--lg g-color--white mt-5" style="font-weight:700; text-shadow: 2px 0 #333; letter-spacing:2px; position: relative;">C-Suites</h1>
                 
                     <br>
                     <div style="align-itens:center;" class="col-sm-7 col-sm-6 col-lg-7">
@@ -434,7 +433,7 @@ $_SESSION['login_use'] = 'ecell';
         <!-- End Features -->
         
           
-        <section class="community container-fluid d-none d-md-block" style="margin-bottom:-3%;background-color:#181818;" id="register">
+        <section class="community container-fluid d-block" style="margin-bottom:-3%;background-color:#181818;" id="register">
           <div class="heading text-center" style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000" styel="color:#f18d11">JOIN THE COMMUNITY</div>
           <div class="row">
             <div class="col-md-4"style="margin-left:10%;margin-top:5%"data-aos="fade-right"data-aos-duration="2000">
