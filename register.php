@@ -27,7 +27,7 @@ else{
     <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
 </head>
 <body>
-    <div class="container d-flex justify-content-center pt-3 shadow-lg p-3 mb-5 bg-white rounded">
+    <div class="container d-flex justify-content-center pt-3 shadow-lg p-3 mb-5 bg-white rounded register-form-body">
         <div class="row">
             <form class="p-4" method="post" action="store_detail.php">
                 <div class="card-heading text-center">

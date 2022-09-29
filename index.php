@@ -63,24 +63,21 @@ $_SESSION['login_use'] = 'ecell';
 
         <nav class="navbar navbar-expand-sm fixed-top">
             <div class="container">
-              <a class="navbar-brand ml-0" href="#">
-                <img src="C_suites_logo.png" alt="Ecell Logo" height="60" width="100%">
+            <a class="navbar-brand ml-0" href="https://www.ecellvnit.org/">
+                    <img src="images/logo-ecell.png" alt="Ecell Logo" height="40" width="100%">
               </a>
-
-              <button class="navbar-toggler bg-light ml-auto" type="button" data-toggle="collapse" data-target="#Navbar">
-                <i class="fas fa-bars"></i>
-              </button>
+              <div>|</div>
+              <a class="navbar-brand ml-0" href="#">
+                <img src="C_suites_logo.png" alt="Ecell Logo" height="40" width="100%" style="margin-left:10px;">
+              </a>
 
               <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ml-auto list-unstyled">
                   <li class="nav-item ml-5"><a class="text-light nav-link" href="#">Home</a></li>
                   <li class="nav-item ml-5"><a class="text-light nav-link" href="#about">About </a></li>
-                  <li class="nav-item ml-5"><a class="text-light nav-link" href="#register">Register</a></li>
+                  <li class="nav-item ml-5"><a class="text-light nav-link" href="form.php">Register</a></li>
                   <li class="nav-item ml-5"><a class="text-light nav-link" href="#contact">Contact</a></li>
                   <li class="nav-item ml-5">
-                  <a class="navbar-brand ml-0" href="https://www.ecellvnit.org/">
-                    <img src="images/logo-ecell.png" alt="Ecell Logo" height="40" width="100%">
-                  </a>
                 </li>
                 </ul>
               </div>
@@ -109,11 +106,12 @@ $_SESSION['login_use'] = 'ecell';
                     <br>
                     <div class="col-sm-6 col-sm-5 col-lg-5">
                         <p class="g-color--white-opacity g-font-size-20--xs">Grow yourself and nurture your start-up with us!</p>
+                        
                     </div>
                 
 
                     <a href="form.php"> 
-                      <button class="btn text-white rounded-pill" style="background-color: #f18d11;">Join Now</button></a>
+                      <button  class="btn text-white rounded-pill" style="background-color: #f18d11; z-index:100;">Join Now</button></a>
                 <!-- <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
                     <a class="btn btn-outline-light" id="reg_button" href="#register" title="Register">
                         <span class="text-uppercase">Join Now!</span>
@@ -126,7 +124,7 @@ $_SESSION['login_use'] = 'ecell';
           </div>
 
 
-
+        
         <div class="g-promo-section" style="background:#000" id="about">
             <div class="container g-padding-y-30--xs g-padding-y-30--sm g-padding-x-80--md g-padding-x-60--sm g-padding-x-40--xs">
 
@@ -215,11 +213,10 @@ $_SESSION['login_use'] = 'ecell';
                 
                 <img src="images/vectors/Pitch meeting-bro.svg" alt="" />
                 <figcaption>
-                    <h3>
-                      Advantage in StartUp Conclave
+                    <h3 class="h2_card">
+                      Updates about government funds,B-plan competition
                     </h3>
-                    <p>liberty of bypassing the Questionnaire Round
-                      and directly entering the Business Model round of StartUp Conclave.
+                    <p>Get notiefied regularly about various goverment funds for start-ups and B-plan competitions.
                       </p>
                 </figcaption>
             </figure>
@@ -394,20 +391,19 @@ $_SESSION['login_use'] = 'ecell';
         <!-- End Features -->
 
           
-        <section class="community container-fluid d-md-block" style="margin-bottom:-3%;" id="register">
-          <div class="heading text-center" style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">JOIN THE COMMUNITY</div>
+        <section class="community container-fluid d-md-block" style="margin:auto;" id="register">
+          <div class="heading text-center" style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000" styel="color:#f18d11">JOIN THE COMMUNITY</div>
           <div class="row">
             <div class="col-md-4"style="margin-left:10%;margin-top:5%"data-aos="fade-right"data-aos-duration="2000">
-              <div class="heading text-center">❝ EntreLearners ❞</div>
-              <div class="para text-center"style="margin:3% 0">
-                  Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-10th standard students
-                  <br>
-                  <center><a href="form.php"> 
-                  <button class="btn btn3" style="background-color: #f18d11;">Join Now</button></a></center>
+              <div class="heading text-center" styel="color:#f18d11;margin:auto;">❝ LaunchPad ❞</div>
+              <div class="para text-center"style="margin:auto;">
+                  Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:chocolate;">IDEATE, CREATE AND NETWORK</span> with other members of this engaging community.
+                  <a href="form.php"> 
+                  <button class="btn btn3" styel="color:#f18d11">Join Now</button></a>
             </div>
             </div>
             <div class="col-md-6">
-              <img class="image_half" src="images/Team spirit-pana.svg"  alt="" data-aos="fade-left"data-aos-duration="2000">
+              <img class="image_half" src="images/vectors/market launch-bro.svg"  alt="" data-aos="fade-left"data-aos-duration="2000">
             </div>
           </div>
         </section>
@@ -419,30 +415,30 @@ $_SESSION['login_use'] = 'ecell';
             <h2 class="g-font-size-30--xs g-font-size-30--sm g-font-size-30--md g-color--white g-padding-x-20--xs    mb-md-5" style="text-align:center">Get In Touch</h2>
 
             <div class="row justify-content-center">
-                <div class="col-sm-4">
+              <div class="col-sm-4 contact_block">
+                  <div class="g-text-center--xs">
+                      <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs" style="background-color: #f18d11">Grege Rodrigues</h4>
+                       <p class="g-color--white">+91 79720 96424<br>rodriguesgrege@gmail.com</p>
+                  </div>
+              </div>
+                <div class="col-sm-4 contact_block">
                     <div class="g-text-center--xs">
-                        <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs">Gauri Dixit</h4>
-                         <p class="g-color--white">+91 93594 07052<br>gauri057dixit@gmail.com</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="g-text-center--xs">
-                        <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs">Yash Mantri</h4>
-                         <p class="g-color--white">+91 76208 72471<br>yashamantri1@gmail.com</p>
+                        <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs" style="background-color: #f18d11">Kshitij Burman</h4>
+                         <p class="g-color--white">+91 90226 15920<br>kshitijburman2002@gmail.com</p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
-              <div class="col-sm-4">
+              <div class="col-sm-4 contact_block">
                   <div class="g-text-center--xs">
-                      <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs">Gauri Dixit</h4>
-                       <p class="g-color--white">+91 93594 07052<br>gauri057dixit@gmail.com</p>
+                      <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs" style="background-color: #f18d11">Ishan Pandey</h4>
+                       <p class="g-color--white">+91 63763 17859<br>ishanpandey786786@gmail.com</p>
                   </div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 contact_block">
                   <div class="g-text-center--xs">
-                      <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs">Sanchit Padwekar</h4>
-                       <p class="g-color--white">+91 96071 75193<br>padwekarsanchit@gmail.com</p>
+                      <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs" style="background-color: #f18d11">Kavya Kumari</h4>
+                       <p class="g-color--white">+91 96027 80967<br>kavyasingh9749@gmail.com</p>
                   </div>
               </div>
           </div>

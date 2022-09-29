@@ -3,6 +3,7 @@ body{
     font-weight: 400;
     padding-top: 20px;
     background-image: url('background5-01.jpg');
+    margin: auto;
 }
 body h1{
     font-weight: 800;
@@ -54,4 +55,14 @@ form{
 } */
 #registration_form fieldset:not(:first-of-type) {
   display: none;
+}
+
+fieldset{
+  width:50%;
+}
+
+@media screen and (max-width: 480px) {
+  .form-display{
+    width:100%;
+  }
 }

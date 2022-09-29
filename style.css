@@ -458,9 +458,7 @@ body {
     visibility: hidden;
   }
   html,
-  body {
-    overflow-x: hidden;
-  }
+ 
 
   .accordion .accordion-header a {
     padding-top: 7px;

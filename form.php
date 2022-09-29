@@ -29,9 +29,9 @@ else{
 </head>
 <body>
     <div class="container d-flex justify-content-center pt-3 shadow-lg p-3 mb-5 bg-white rounded">
-        <div class="row">
+        <div  class="row form-display">
             <form id="registration_form" action="store_detail.php"  method="post">
-        <fieldset>
+        <fieldset style="width:90%; margin:auto;" >
         <div class="card-heading text-center">
                     <h1 class="title pb-2">Registration</h1>
                     <hr>
@@ -84,7 +84,7 @@ else{
               
             <input type="button" name="password" class="next btn btn-danger  align-items-center my-4" value="Next" />
         </fieldset>
-        <fieldset>
+        <fieldset style="width:90%;">
         <div class="card-heading text-center">
                     <h1 class="title pb-2">Questionaire</h1>
                     <hr>
@@ -153,7 +153,7 @@ else{
             <input type="button" name="next" class="next btn btn-danger" value="Next" />
         <!-- </div> -->
         </fieldset>
-        <fieldset>
+        <fieldset style="width:90%;">
         <div class="card-heading text-center">
                     <h1 class="title pb-2">Questionaire</h1>
                     <hr>
@@ -213,7 +213,7 @@ else{
             <input type="button" name="next" class="next btn btn-danger" value="Next" />
         <!-- </div> -->
         </fieldset>
-        <fieldset>
+        <fieldset style="width:90%;">
         <div class="card-heading text-center">
                     <h1 class="title pb-2">Questionaire</h1>
                     <hr>
@@ -271,7 +271,7 @@ else{
         <!-- </div> -->
         </fieldset>
         
-        <fieldset>
+        <fieldset style="width:90%;">
         <div class="card-heading text-center">
                     <h1 class="title pb-2">Questionaire</h1>
                     <hr>

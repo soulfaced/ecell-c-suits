@@ -243,3 +243,34 @@ html {
 .orange_text{
   color:#f18d11;
 }
+
+.logo_line{
+  color:white;
+  background-color: white;
+  width: 1px;
+  height: 40px;
+  offset: 0;
+}
+
+.manager-name{
+  background-color: #f18d11;
+}
+
+.community{
+  background-color: #2b2a2a;
+}
+
+.main_header{
+  width:100%;
+}
+
+.ecell-presents{
+  width: 320px;
+  z-index: 100;
+}
+
+@media screen and (max-width: 480px) {
+  .ecell-presents{
+    width: 320px;
+
+}}
